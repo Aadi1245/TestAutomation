@@ -3,7 +3,7 @@ name: Build and Sign APK/AAB
 on:
   push:
     branches:
-      - master
+      - staged
   pull_request:
 
 jobs:
